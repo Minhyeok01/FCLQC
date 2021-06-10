@@ -14,7 +14,7 @@ When compressing, you must enter the value of precision, file_size , and threadn
 When decompressing, you only need to assign a value to the thread_num , and any value to the other parameters.
 
 When random access, you only need to assign a value to the thread_num, first_line, last_line , and any value to the other parameters.
-
+#test
 
 Example of parameter file is in the sample_data folder.
 
