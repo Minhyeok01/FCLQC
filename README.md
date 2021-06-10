@@ -1,5 +1,5 @@
-# FCLQC
-Fast and Concurrent Lossless Qualityscores Compressor written by Rust.
+# fqcomp
+Quality scores compressor using parallel arithmetic code written by Rust.
 
 Two input Files(input fastq file and parameter json file) are required for program.
 
