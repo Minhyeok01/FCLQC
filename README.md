@@ -31,7 +31,7 @@ Example of parameter file is in the sample_data folder.
       
       Example of runing  compressor in release mode 
       :cargo run --release -- -c input.fastq outputname parameter.json
-### Decompress and random acees
+### Decompress and random access
       cargo.exe -d(-r) <INPUT-FILE-NAME> <OUTPUT-FILE-NAME> <PARAMETER-FILE>
   
       Example of runing  decompressor in release mode 
