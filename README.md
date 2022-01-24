@@ -20,7 +20,7 @@ Example of parameter file is in the sample_data folder.
 
 ## Installaton of FCLQC
       Install rust language [rust](https://www.rust-lang.org/tools/install)
-      cd FCLQC >
+      cd FCLQC 
       cargo build --release
       
 ## Usage of FCLQC
