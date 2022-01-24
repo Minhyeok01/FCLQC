@@ -19,12 +19,12 @@ When random access, you only need to assign a value to the thread_num, first_lin
 Example of parameter file is in the sample_data folder.
 
 ## Installaton of FCLQC
-Install rust language https://www.rust-lang.org/tools/install
-      cd FCLQC
-      cargo build --release
+Install rust language https://www.rust-lang.org/tools/install \n
+      cd FCLQC \n
+      cargo build --release \n
       
 ## Usage of FCLQC
-      cd FCLQC/target/release
+      cd FCLQC/target/release \n
       cargo.exe [Cargo OPTIONS] [MAIN OPTIONS] [INPUT FILE |OUTPUT NAME| PARAMETER FILE]
       
       MAINT OPTIONS: [-c | -d | -r]  
@@ -35,16 +35,16 @@ Install rust language https://www.rust-lang.org/tools/install
 ### Compress
       cargo.exe -c <INPUT-FILE> <OUTPUT-FILE-NAME> <PARAMETER-FILE> 
       
-      Example of runing  compressor in release mode 
-      :cargo run --release -- -c input.fastq outputname parameter.json
+      Example of runing  compressor 
+      : ./main -c input.fastq outputname parameter.json
 ### Decompress and random access
       cargo.exe -d(-r) <INPUT-FILE-NAME> <OUTPUT-FILE-NAME> <PARAMETER-FILE>
   
       Example of runing  decompressor in release mode 
-      :cargo run --release -- -d inputname outputname parameter.json
+      :./main -d inputname outputname parameter.json
            
       Example of runing  randaom access in release mode
-      :cargo run --release -- -r inputname outputname parameter.json
+      :./main -r inputname outputname parameter.json
                     
                     
                     
