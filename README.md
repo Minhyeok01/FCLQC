@@ -19,8 +19,8 @@ When random access, you only need to assign a value to the thread_num, first_lin
 Example of parameter file is in the sample_data folder.
 
 ## Installaton of FCLQC
-      Install rust language https://www.rust-lang.org/tools/install \n
-      cd FCLQC \n
+      Install rust language [rust](https://www.rust-lang.org/tools/install) <br/>
+      cd FCLQC > \n
       cargo build --release \n
       
 ## Usage of FCLQC
